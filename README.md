@@ -8,8 +8,11 @@ Adoption Prediction of Pets
 ## 2. Project Introduction
 
 Prediction of pets' adoption speed based on dataset.
+
 Required to predict "AdoptionSpeed". 
-The value is determined by how quickly, if at all, a pet is adopted.
+
+Investigate the correlation of data fields and predict adoption speed using various combinations.
+
 ```
 0 - Pet was adopted on the same day as it was listed. 
 1 - Pet was adopted between 1 and 7 days.
