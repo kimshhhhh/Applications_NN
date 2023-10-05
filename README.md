@@ -39,3 +39,9 @@ Fee | Adoption Fee | Numerical | integer
 Description | Profile write-up for this pet | Text | string
 PhotoAmt | Total uploaded photos for this pet | Numerical | integer
 AdoptionSpeed | Speed of adoption | Classification | integer
+
+## 4. Contact
+
+If you have any questions, please contact me at the email below.
+
+# kim_sh@korea.ac.kr
