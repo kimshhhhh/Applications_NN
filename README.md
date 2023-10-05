@@ -23,31 +23,19 @@ Investigate the correlation of data fields and predict adoption speed using vari
 
 ## 3. Dataset Description
 
-```
-Data Fields
-
-PetID - Unique hash ID of pet profile
-AdoptionSpeed - Categorical speed of adoption.
-Type - Type of animal (1 = Dog, 2 = Cat)
-Name - Name of pet
-Age - Age of pet when listed, in months
-Breed1 - Primary breed of pet
-Breed2 - Secondary breed of pet, if pet is of mixed breed
-Gender - Gender of pet (1 = Male, 2 = Female, 3 = Mixed)
-Color1 - Color 1 of pet
-Color2 - Color 2 of pet
-Color3 - Color 3 of pet
-MaturitySize - Size at maturity (1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Specified)
-FurLength - Fur length (1 = Short, 2 = Medium, 3 = Long, 0 = Not Specified)
-Vaccinated - Pet has been vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
-Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
-Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
-Health - Health Condition (1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Specified)
-Quantity - Number of pets represented in profile
-Fee - Adoption fee
-State - State location in Malaysia
-RescuerID - Unique hash ID of rescuer
-VideoAmt - Total uploaded videos for this pet
-PhotoAmt - Total uploaded photos for this pet
-Description - Profile write-up for this pet.
-```
+Column | Description| Feature Type | Data Type
+------------|--------------------|----------------------|-----------------
+Type | Type of animal (Dog, Cat) | Categorical | string
+Age |  Age of the pet | Numerical | integer
+Breed1 | Primary breed of the pet | Categorical | string
+Color1 | Color 1 of pet | Categorical | string
+Color2 | Color 2 of pet | Categorical | string
+MaturitySize | Size at maturity | Categorical | string
+FurLength | Fur length | Categorical | string
+Vaccinated | Pet has been vaccinated | Categorical | string
+Sterilized | Pet has been sterilized | Categorical | string
+Health | Health Condition | Categorical | string
+Fee | Adoption Fee | Numerical | integer
+Description | Profile write-up for this pet | Text | string
+PhotoAmt | Total uploaded photos for this pet | Numerical | integer
+AdoptionSpeed | Speed of adoption | Classification | integer
